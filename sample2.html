@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style2.css" />
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>FirstName</th>
+        <th>LastName</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Dipesh</td>
+        <td>Malvia</td>
+        <td>28</td>
+      </tr>
+      <tr>
+        <td>Dipesh</td>
+        <td>Malvia</td>
+        <td>28</td>
+      </tr>
+      <tr>
+        <td>Dipesh</td>
+        <td>Malvia</td>
+        <td>28</td>
+      </tr>
+      <tr>
+        <td>Sheldon</td>
+        <td>Cooper</td>
+        <td>29</td>
+      </tr>
+    </table>
+    <div class="position">
+      <div class="relative"></div>
+      <div class="absolute"></div>
+      <div class="fixed"></div>
+    </div>
+    <div class="form-container">
+      <h2>Registration Form</h2>
+      <!-- Forms
+        type - text, radio, checkbox, email, date
+      -->
+      <form action="" class="form">
+        <div class="form-group">
+          <label for="firstname">First Name</label>
+          <input type="text" name="firstname" placeholder="Enter first name" />
+        </div>
+        <div class="form-group">
+          <label for="lastname">Last Name</label>
+          <input type="text" name="lastname" placeholder="Enter last name" />
+        </div>
+        <div class="form-check">
+          <label>Gender : </label>
+          <input type="radio" value="male" name="gender" />
+          <label>Male </label>
+          <input type="radio" value="female" name="gender" />
+          <label>Female </label>
+        </div>
+        <div class="form-check">
+          <label for="hobbies">Hobbiess</label>
+          <input type="checkbox" name="hobbies1" value="Cycling" />
+          <label for="hobbies1">cycling</label>
+          <input type="checkbox" name="hobbies2" value="Cooking" />
+          <label for="hobbies2">cooking</label>
+          <input type="checkbox" name="hobbies3" value="Reading" />
+          <label for="hobbies3">Reading novels</label>
+        </div>
+        <div class="form-group">
+          <label for="Age">Age Group</label>
+          <select>
+            <option value="">select option</option>
+            <option value="School">10-20</option>
+            <option value="College">21-25</option>
+            <option value="Working">26-40</option>
+          </select>
+        </div>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

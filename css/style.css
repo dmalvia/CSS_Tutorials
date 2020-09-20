@@ -1,0 +1,142 @@
+/* h1 {
+  color: royalblue;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* color: royalblue; */
+  /* color: #333333; */
+  color: #000;
+
+  /* fonts */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 20px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+/* Text Formatting */
+p {
+  text-align: center;
+  text-decoration: underline;
+  color: tomato;
+}
+
+/* CLASS and ID */
+.box {
+  background: #dfdfdf;
+}
+
+#box {
+  background: violet;
+}
+
+.box h1 {
+  font-size: 25px;
+}
+.box p {
+  font-size: 15px;
+  text-align: left;
+}
+
+.box-model {
+  width: 100px;
+  height: 100px;
+  margin: 50px;
+  padding: 25px;
+  border: 25px solid #000000;
+  background: lime;
+}
+.block {
+  background: #dfdfdf;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.block p {
+  color: 000;
+  text-align: left;
+  border: 2px solid #000000;
+  /* padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px; */
+  padding: 30px 10px 20px 5px;
+}
+
+.list ul {
+  list-style-image: url("../images/languages.png");
+}
+a:hover {
+  color: tomato;
+}
+
+a:visited {
+  color: teal;
+}
+
+a:active {
+  color: black;
+}
+.list1 ul li {
+  /* display: inline; */
+}
+/* .list1 ul li:first-child {
+  background: tomato;
+}
+.list1 ul li:last-child {
+  background: teal;
+} */
+.list1 ul li:nth-child(odd) {
+  background: #dfdfdf;
+}
+.list1 ul li:nth-child(even) {
+  background: #777;
+}
+
+.float {
+  margin: 20px;
+}
+
+.float img {
+  width: 100px;
+  height: 100px;
+}
+
+.image-box {
+  margin: 20px;
+}
+
+.image-box p {
+  color: #777;
+  font-size: 14px;
+}
+.image-box img {
+  float: left;
+}
+
+.float-box {
+  float: left;
+  background: #dfdfdf;
+  width: 33.3%;
+  padding: 20px;
+  border-right: 1px solid #000;
+}
+.float-box:last-child {
+  border-right: 0px;
+}
+
+.float-box h1 {
+  font-size: 25px;
+}
+
+/* Float the element right or left */
